@@ -1,0 +1,294 @@
+{
+  "Dynamixel.XM430": {
+    "ID": {
+      "Address": 7,
+      "Length": 1,
+      "Type": "Uint8"
+    },"BaudRate": {
+      "Address": 8,
+      "Length": 1,
+      "Type": "Uint8"
+    },"OperatingMode": {
+      "Address": 11,
+      "Length": 1,
+      "Type": "Uint8"
+    },"MaxPositionLimit": {
+      "Address": 48,
+      "Length": 4,
+      "Type": "Uint32"
+    },"MinPositionLimit": {
+      "Address": 52,
+      "Length": 4,
+      "Type": "Uint32"
+    },"Shutdown": {
+      "Address": 63,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "TorqueEnable": {
+      "Address": 64,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "LED": {
+      "Address": 65,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "GoalVelocity": {
+      "Address": 104,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "GoalPosition": {
+      "Address": 116,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "PresentCurrent": {
+      "Address": 126,
+      "Length": 2,
+      "Type": "Sint16"
+    },
+    "PresentVelocity": {
+      "Address": 128,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "PresentPosition": {
+      "Address": 132,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "DriveMode": {
+      "Address": 10,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "PositionPGain": {
+      "Address": 84,
+      "Length": 2,
+      "Type": "Uint16"
+    },
+    "ProfileVelocity": {
+      "Address": 112,
+      "Length": 4,
+      "Type": "Uint32"
+    },
+    "ProfileAcceleration": {
+      "Address": 108,
+      "Length": 4,
+      "Type": "Uint32"
+    }
+  },
+  "Dynamixel.XL430": {
+    "ID": {
+      "Address": 7,
+      "Length": 1,
+      "Type": "Uint8"
+    },"BaudRate": {
+      "Address": 8,
+      "Length": 1,
+      "Type": "Uint8"
+    },"OperatingMode": {
+      "Address": 11,
+      "Length": 1,
+      "Type": "Uint8"
+    },"MaxPositionLimit": {
+      "Address": 48,
+      "Length": 4,
+      "Type": "Uint32"
+    },"MinPositionLimit": {
+      "Address": 52,
+      "Length": 4,
+      "Type": "Uint32"
+    },"Shutdown": {
+      "Address": 63,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "TorqueEnable": {
+      "Address": 64,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "LED": {
+      "Address": 65,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "GoalVelocity": {
+      "Address": 104,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "GoalPosition": {
+      "Address": 116,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "PresentLoad": {
+      "Address": 126,
+      "Length": 2,
+      "Type": "Sint16"
+    },
+    "PresentVelocity": {
+      "Address": 128,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "PresentPosition": {
+      "Address": 132,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "DriveMode": {
+      "Address": 10,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "PositionPGain": {
+      "Address": 84,
+      "Length": 2,
+      "Type": "Uint16"
+    },
+    "ProfileVelocity": 
+  {
+      "Address": 112,
+      "Length": 4,
+      "Type": "Uint32"
+    },
+    "ProfileAcceleration": {
+      "Address": 108,
+      "Length": 4,
+      "Type": "Uint32"
+    }
+  },
+  "Dynamixel.XC430": {
+    "ID": {
+      "Address": 7,
+      "Length": 1,
+      "Type": "Uint8"
+    },"BaudRate": {
+      "Address": 8,
+      "Length": 1,
+      "Type": "Uint8"
+    },"OperatingMode": {
+      "Address": 11,
+      "Length": 1,
+      "Type": "Uint8"
+    },"MaxPositionLimit": {
+      "Address": 48,
+      "Length": 4,
+      "Type": "Uint32"
+    },"MinPositionLimit": {
+      "Address": 52,
+      "Length": 4,
+      "Type": "Uint32"
+    },"Shutdown": {
+      "Address": 63,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "TorqueEnable": {
+      "Address": 64,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "LED": {
+      "Address": 65,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "GoalVelocity": {
+      "Address": 104,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "GoalPosition": {
+      "Address": 116,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "PresentLoad": {
+      "Address": 126,
+      "Length": 2,
+      "Type": "Sint16"
+    },
+    "PresentVelocity": {
+      "Address": 128,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "PresentPosition": {
+      "Address": 132,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "DriveMode": {
+      "Address": 10,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "PositionPGain": {
+      "Address": 84,
+      "Length": 2,
+      "Type": "Uint16"
+    },
+    "ProfileVelocity": 
+  {
+      "Address": 112,
+      "Length": 4,
+      "Type": "Uint32"
+    },
+    "ProfileAcceleration": {
+      "Address": 108,
+      "Length": 4,
+      "Type": "Uint32"
+    }
+  },
+  "Dynamixel.XL320": {
+    "TorqueEnable": {
+      "Address": 24,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "GoalPosition": {
+      "Address": 30,
+      "Length": 2,
+      "Type": "Sint16"
+    },
+    "PositionPGaint": {
+      "Address": 29,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "PresentPosition": {
+      "Address": 37,
+      "Length": 2,
+      "Type": "Sint16"
+    }
+  },
+  "Dynamixel.XL330": {
+    "TorqueEnable": {
+      "Address": 64,
+      "Length": 1,
+      "Type": "Uint8"
+    },
+    "GoalPosition": {
+      "Address": 116,
+      "Length": 4,
+      "Type": "Sint32"
+    },
+    "PositionPGaint": {
+      "Address": 84,
+      "Length": 4,
+      "Type": "Uint32"
+    },
+    "PresentPosition": {
+      "Address": 132,
+      "Length": 4,
+      "Type": "Sint32"
+    }
+  }
+}

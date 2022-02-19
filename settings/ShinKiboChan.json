@@ -1,0 +1,407 @@
+{
+    "OSCSettings": {
+        "OSCReceivePortNum": 12345,
+        "OSCSendPortNum": 12346,
+        "OSCSendHost": "127.0.0.1"
+    },
+    "MotorSettings": {
+        "MotorConnectInformations": [
+            {
+                "Label": "BigMotors",
+                "ServoPortName": "COM18",
+                "BaudRate": "1000000",
+                "MotorNames": [
+                    "Head1",
+                    "Head2",
+                    "Head3",
+                    "Hip",
+                    "RArm1",
+                    "RArm2",
+                    "LArm1",
+                    "LArm2",
+                    "RLeg1",
+                    "RLeg2",
+                    "RLeg3",
+                    "RLeg4",
+                    "RLeg5",
+                    "LLeg1",
+                    "LLeg2",
+                    "LLeg3",
+                    "LLeg4",
+                    "LLeg5"
+                ]
+            },
+            {
+                "Label": "SmallMotors",
+                "ServoPortName": "COM17",
+                "BaudRate": "1000000",
+                "MotorNames": [
+                    "Blink",
+                    "RArm3",
+                    "RArm4",
+                    "RArm5",
+                    "RArm6",
+                    "LArm3",
+                    "LArm4",
+                    "LArm5",
+                    "LArm6"
+                ]
+            }
+        ],
+        "MotorInfos": [
+            {
+                "Name": "Blink",
+                "ID": 1,
+                "Type": "Dynamixel.XM430",
+                "Source": "Blink"
+            },
+            {
+                "Name": "Head1",
+                "ID": 21,
+                "Type": "Dynamixel.XM430",
+                "Source": "Head1"
+            },
+            {
+                "Name": "Head2",
+                "ID": 22,
+                "Type": "Dynamixel.XM430",
+                "Source": "Head2"
+            },
+            {
+                "Name": "Head3",
+                "ID": 23,
+                "Type": "Dynamixel.XM430",
+                "Source": "Head3"
+            },
+            {
+                "Name": "Hip",
+                "ID": 24,
+                "Type": "Dynamixel.XM430",
+                "Source": "Hip"
+            },
+            {
+                "Name": "RArm1",
+                "ID": 31,
+                "Type": "Dynamixel.XM430",
+                "Source": "RArm1"
+            },
+            {
+                "Name": "RArm2",
+                "ID": 32,
+                "Type": "Dynamixel.XM430",
+                "Source": "RArm2"
+            },
+            {
+                "Name": "RArm3",
+                "ID": 33,
+                "Type": "Dynamixel.XM430",
+                "Source": "RArm3"
+            },
+            {
+                "Name": "RArm4",
+                "ID": 34,
+                "Type": "Dynamixel.XM430",
+                "Source": "RArm4"
+            },
+            {
+                "Name": "RArm5",
+                "ID": 35,
+                "Type": "Dynamixel.XM430",
+                "Source": "RArm5"
+            },
+            {
+                "Name": "RArm6",
+                "ID": 36,
+                "Type": "Dynamixel.XM430",
+                "Source": "RArm6"
+            },
+            {
+                "Name": "LArm1",
+                "ID": 41,
+                "Type": "Dynamixel.XM430",
+                "Source": "LArm1"
+            },
+            {
+                "Name": "LArm2",
+                "ID": 42,
+                "Type": "Dynamixel.XM430",
+                "Source": "LArm2"
+            },
+            {
+                "Name": "LArm3",
+                "ID": 43,
+                "Type": "Dynamixel.XM430",
+                "Source": "LArm3"
+            },
+            {
+                "Name": "LArm4",
+                "ID": 44,
+                "Type": "Dynamixel.XM430",
+                "Source": "LArm4"
+            },
+            {
+                "Name": "LArm5",
+                "ID": 45,
+                "Type": "Dynamixel.XM430",
+                "Source": "LArm5"
+            },
+            {
+                "Name": "LArm6",
+                "ID": 46,
+                "Type": "Dynamixel.XM430",
+                "Source": "LArm6"
+            },
+            {
+                "Name": "LLeg1",
+                "ID": 61,
+                "Type": "Dynamixel.XM430",
+                "Source": "LLeg1"
+            },
+            {
+                "Name": "LLeg2",
+                "ID": 62,
+                "Type": "Dynamixel.XM430",
+                "Source": "LLeg2"
+            },
+            {
+                "Name": "LLeg3",
+                "ID": 63,
+                "Type": "Dynamixel.XM430",
+                "Source": "LLeg3"
+            },
+            {
+                "Name": "LLeg4",
+                "ID": 64,
+                "Type": "Dynamixel.XM430",
+                "Source": "LLeg4"
+            },
+            {
+                "Name": "LLeg5",
+                "ID": 65,
+                "Type": "Dynamixel.XM430",
+                "Source": "LLeg5"
+            },
+            {
+                "Name": "RLeg1",
+                "ID": 51,
+                "Type": "Dynamixel.XM430",
+                "Source": "RLeg1"
+            },
+            {
+                "Name": "RLeg2",
+                "ID": 52,
+                "Type": "Dynamixel.XM430",
+                "Source": "RLeg2"
+            },
+            {
+                "Name": "RLeg3",
+                "ID": 53,
+                "Type": "Dynamixel.XM430",
+                "Source": "RLeg3"
+            },
+            {
+                "Name": "RLeg4",
+                "ID": 54,
+                "Type": "Dynamixel.XM430",
+                "Source": "RLeg4"
+            },
+            {
+                "Name": "RLeg5",
+                "ID": 55,
+                "Type": "Dynamixel.XM430",
+                "Source": "RLeg5"
+            }
+        ],
+        "MotorDisplays": [
+            {
+                "Name": "Blink",
+                "Pos": [
+                    100,
+                    160
+                ]
+            },
+            {
+                "Name": "Head1",
+                "Pos": [
+                    100,
+                    260
+                ]
+            },
+            {
+                "Name": "Head2",
+                "Pos": [
+                    100,
+                    360
+                ]
+            },
+            {
+                "Name": "Head3",
+                "Pos": [
+                    100,
+                    460
+                ]
+            },
+            {
+                "Name": "Hip",
+                "Pos": [
+                    100,
+                    560
+                ]
+            },
+            {
+                "Name": "RArm1",
+                "Pos": [
+                    200,
+                    160
+                ]
+            },
+            {
+                "Name": "RArm2",
+                "Pos": [
+                    200,
+                    260
+                ]
+            },
+            {
+                "Name": "RArm3",
+                "Pos": [
+                    200,
+                    360
+                ]
+            },
+            {
+                "Name": "RArm4",
+                "Pos": [
+                    200,
+                    460
+                ]
+            },
+            {
+                "Name": "RArm5",
+                "Pos": [
+                    200,
+                    560
+                ]
+            },
+            {
+                "Name": "RArm6",
+                "Pos": [
+                    200,
+                    660
+                ]
+            },
+            {
+                "Name": "LArm1",
+                "Pos": [
+                    300,
+                    160
+                ]
+            },
+            {
+                "Name": "LArm2",
+                "Pos": [
+                    300,
+                    260
+                ]
+            },
+            {
+                "Name": "LArm3",
+                "Pos": [
+                    300,
+                    360
+                ]
+            },
+            {
+                "Name": "LArm4",
+                "Pos": [
+                    300,
+                    460
+                ]
+            },
+            {
+                "Name": "LArm5",
+                "Pos": [
+                    300,
+                    560
+                ]
+            },
+            {
+                "Name": "LArm6",
+                "Pos": [
+                    300,
+                    660
+                ]
+            },
+            {
+                "Name": "RLeg1",
+                "Pos": [
+                    400,
+                    160
+                ]
+            },
+            {
+                "Name": "RLeg2",
+                "Pos": [
+                    400,
+                    260
+                ]
+            },
+            {
+                "Name": "RLeg3",
+                "Pos": [
+                    400,
+                    360
+                ]
+            },
+            {
+                "Name": "RLeg4",
+                "Pos": [
+                    400,
+                    460
+                ]
+            },
+            {
+                "Name": "RLeg5",
+                "Pos": [
+                    400,
+                    560
+                ]
+            },
+            {
+                "Name": "LLeg1",
+                "Pos": [
+                    500,
+                    160
+                ]
+            },
+            {
+                "Name": "LLeg2",
+                "Pos": [
+                    500,
+                    260
+                ]
+            },
+            {
+                "Name": "LLeg3",
+                "Pos": [
+                    500,
+                    360
+                ]
+            },
+            {
+                "Name": "LLeg4",
+                "Pos": [
+                    500,
+                    460
+                ]
+            },
+            {
+                "Name": "LLeg5",
+                "Pos": [
+                    500,
+                    560
+                ]
+            }
+        ]
+    }
+}

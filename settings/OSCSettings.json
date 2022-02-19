@@ -1,0 +1,5 @@
+{
+  "OSCReceivePortNum": 12345,
+  "OSCSendPortNum": 12346,
+  "OSCSendHost": "127.0.0.1"
+}
